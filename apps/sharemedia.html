@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <b:if cond='data:blog.pageType == &quot;item&quot;'></b:if>
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MKR Creations</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .mkrcre {
+            text-align: center;
+            color: #1e1;
+            /* background-color: #1e1; */
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+            /* border: 2px #1e1; */
+        }
+
+        .gpshmpp {
+            width: 32;
+        }
+
+        /*<![CDATA[*/
+        @font-face {
+            font-family: "fontfutura";
+            src: url("https://fonts.googleapis.com/css?family=Open+Sans") format("ttf");
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        a.btn-google {
+            color: #fff
+        }
+
+        .btn {
+            padding: 10px 16px;
+            margin: 5px;
+            font-size: 18px;
+            line-height: 1.3333333;
+            border-radius: 6px;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            border: 1px solid transparent;
+            font-weight: 500;
+            text-decoration: none;
+            display: inline-block
+        }
+
+        .btn:active:focus,
+        .btn:focus {
+            outline: 0
+        }
+
+        .btn:focus,
+        .btn:hover {
+            color: #333;
+            text-decoration: none;
+            outline: 0
+        }
+
+        .btn:active {
+            outline: 0;
+            -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+            box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125)
+        }
+
+        .btn-google {
+            color: #fff;
+            background-color: #111;
+            border-color: #000;
+            padding: 15px 16px 5px 40px;
+            position: relative;
+            font-family: fontfutura;
+            font-weight: 600
+        }
+
+        .btn-google:focus {
+            color: #fff;
+            background-color: #555;
+            border-color: #000
+        }
+
+        .btn-google:active,
+        .btn-google:hover {
+            color: #fff;
+            background-color: #555;
+            border-color: #000;
+        }
+
+        .btn-google:before {
+            content: "";
+            background-image: url(https://4.bp.blogspot.com/-52U3eP2JDM4/WSkIT1vbUxI/AAAAAAAArQA/iF1BeARv2To-2FGQU7V6UbNPivuv_lccACLcB/s30/nexus2cee_ic_launcher_play_store_new-1.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            left: 6px;
+            top: 50%;
+            margin-top: -15px
+        }
+
+        .btn-google:after {
+            content: "GET IT ON";
+            position: absolute;
+            top: 5px;
+            left: 40px;
+            font-size: 10px;
+            font-weight: 400;
+        }
+
+        /*]]>*/
+
+
+        body{
+            margin-left: 2%;
+            margin-top: 2%;
+            margin-right: 2%;
+            margin-bottom: 2%;
+        }
+    </style>
+</head>
+
+<body class="shmb">
+
+    <div>
+        <div class="navbar1">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+                <nav class="navbar navbar-light bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="/index.html">
+                            <img src="/assets/mkrlogo.png" alt="" width="30" height="24"
+                                class="d-inline-block align-text-top">
+                            MKR Creation
+                        </a>
+                    </div>
+                </nav>
+
+
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                            style="--bs-scroll-height: 100px;">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    ShareMedia
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="/sharemedia/EventUpdate.html">Events</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="/sharemedia/privacypolicy.html">Privacy
+                                            Policy</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="/sharemedia/EventRules.html">Event Rules</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/sharemedia/privacypolicy.html">Privacy Policy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Earn with
+                                    us</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Books</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Career</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+
+
+        <div class="shm001">
+            <center>
+                <div class="shm002">
+                    <h1 class="mkrcre">MKR Creation</h1>
+                </div>
+
+                <div class="card mb-3">
+                    <img src="/assets/sharemedia/4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ShareMedia</h5>
+                        <p class="card-text">
+
+
+                        <p>Welcome to ShareMedia, your ultimate destination for hilarious and entertaining memes!Express
+                            yourself and share laughter with friends and the global meme community through our exciting
+                            meme sharing app.
+                        </p>
+                        <h4>🚀 Share Endless Laughter:</h4>
+                        <p>Browse a vast library of handpicked, trending, and user-generated memes that are sure to
+                            tickle your funny bone. From classic templates to fresh and original content, there's
+                            something for everyone in ShareMedia.
+                        </p>
+                        <h4>📸 Create Memes Like a Pro:</h4>
+                        <p>Unleash your creativity and become a meme-making wizard! Our powerful meme editor lets you
+                            customize templates or start from scratch with your own images and captions. The intuitive
+                            interface makes meme creation a breeze, even for beginners.
+                        </p>
+                        <h4>👍 Like, Comment & Share:</h4>
+                        <p>Be a part of the meme revolution! React to your favorite memes with likes, leave witty
+                            comments, and share them instantly with your friends on social media platforms. Spread the
+                            joy of humor and connect with like-minded meme enthusiasts from around the world.
+                        </p>
+                        <h4>🏆 Trending Memes & Challenges:</h4>
+                        <p>Stay up-to-date with the latest meme trends and viral challenges. Whether it's the "Meme of
+                            the Week" or the "Meme Olympics," we've got you covered with fun challenges that'll keep you
+                            hooked!
+                        </p>
+                        <h4>🔒 Safe and Secure:</h4>
+                        <p>We take your privacy seriously. ShareMedia ensures a safe and positive environment for all
+                            users. Our advanced content moderation system prevents the sharing of inappropriate or
+                            offensive content.
+                        </p>
+                        <h4>🌟 Memes for Every Mood:</h4>
+                        <p>Feeling down? Need a good laugh? Want to surprise your friends with the perfect meme?
+                            ShareMedia has it all! Explore a wide range of categories, including dank memes, wholesome
+                            humor, relatable situations, and much more.
+                        </p>
+                        <h4>🤖 AI-Generated Memes:</h4>
+                        <p>Experience the cutting-edge of meme culture with our AI-generated memes! Our state-of-the-art
+                            AI algorithms deliver memes that are guaranteed to leave you in stitches.
+                        </p>
+                        <h4>🔔 Stay Notified:</h4>
+                        <p>Never miss a beat in the meme world! Turn on notifications, and we'll keep you updated on the
+                            latest memes, challenges, and community events.
+                        </p>
+                        <h6>Join ShareMedia today and let the laughter begin! Download now and become a part of the
+                            global meme phenomenon.
+                        </h6>
+                        <h1>Note:</h4>
+
+                            <h4>ShareMedia is an app made for sharing humor and creating a positive community. Users are
+                                expected to adhere to our community guidelines, promoting respect and kindness towards
+                                others.
+                            </h4>
+                            <br>
+
+
+                            <div class="w3-bar">
+                                <a href="/sharemedia/privacypolicy.html">
+                                    <button class="w3-button w3-teal">Read our Privacy Policy</button></a>
+                                <a>
+                                    <button class="w3-button w3-green">Terms and Conditions</button></a>
+
+                            </div>
+                            <br>
+                            <h3>Follow Us on</h3>
+                            <a href="https://www.instagram.com/kanagaraj.m_mkr/" class="fa fa-instagram"></a>
+                            <a href="https://www.youtube.com/@MKR-Creation-official/" class="fa fa-youtube"></a>
+                            <a href="https://twitter.com/Mr_Kanagaraj_m" class="fa fa-twitter"></a>
+                            <a href="/soon/comming_soon.html" class="fa fa-facebook"></a>
+
+
+
+                            <p>tag: <span class="w3-tag">#MKR Creation</span> <span class="w3-tag">#ShareMedia</span>
+                            </p>
+                            </p>
+
+
+                            <h1>Download our ShareMedia</h1>
+                            <br>
+                            <div>
+                                <a class="btn btn-google"
+                                    href="https://play.google.com/store/apps/details?id=mskp.tamilanproject.sharemediapro.xyz"
+                                    title="Google Play">Google Play</a>
+                            </div>
+                    </div>
+
+                </div>
+        </div>
+    </div>
+    </center>
+    </div>
+
+
+</body>
+
+</html>
